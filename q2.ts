@@ -1,7 +1,9 @@
-const axios = require("axios");
+// const axios = require("axios");
+import axios from "axios";
 
-const getTodo = async (todoId) => {
-  //your code here
+/* assign interface/type to the function definition properly */
+const getTodo = async (todoId: number) => {
+  /* Your code here */
 };
 
 //test case
@@ -14,4 +16,4 @@ getTodo(input1).then((result) => console.log(result));
 getTodo(input2).then((result) => console.log(result));
 getTodo(input3).then((result) => console.log(result));
 
-module.exports = getTodo;
+export default getTodo;

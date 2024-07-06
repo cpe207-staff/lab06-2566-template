@@ -6,8 +6,10 @@
   "devDependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.10",
     "babel-jest": "*",
-    "jest": "^27.0.6"
+    "ts-jest": "^29.1.5"
   },
   "scripts": {
     "test": "jest"
@@ -16,6 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^1.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   }
 }
